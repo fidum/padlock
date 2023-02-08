@@ -13,6 +13,16 @@ composer global require fidum/padlock
 ```
 
 ## Usage
+```console
+$ padlock
+
+  USAGE: padlock <command> [options] [arguments]
+
+  self-update Allows to self-update a build application
+
+  env:decrypt Decrypt an environment file
+  env:encrypt Encrypt an environment file
+```
 
 Run the below commands to encrypt and decrypt environment files in the current directory. 
 
