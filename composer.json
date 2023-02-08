@@ -1,0 +1,52 @@
+{
+    "name": "fidum/padlock",
+    "description": "A Laravel Zero Command for encrypting and decrypting environment files.",
+    "keywords": ["framework", "laravel", "laravel zero", "console", "cli"],
+    "homepage": "https://fidum.uk",
+    "type": "project",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/fidum/padlock/issues",
+        "source": "https://github.com/fidum/padlock"
+    },
+    "authors": [
+        {
+            "name": "Daniel Mason",
+            "email": "fidum.dev@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/encryption": "^9.51",
+        "laravel-zero/phar-updater": "^1.2",
+        "nunomaduro/termwind": "^1.14"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.2",
+        "laravel-zero/foundation": "^9.50",
+        "laravel-zero/framework": "^9.2",
+        "mockery/mockery": "^1.4.4",
+        "pestphp/pest": "^1.21.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "bin": ["padlock"]
+}
