@@ -1,8 +1,7 @@
 # A Laravel Zero Command for encrypting and decrypting environment files.
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/fidum/padlock.svg?style=for-the-badge)](https://packagist.org/packages/fidum/padlock)
-[![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/fidum/padlock/run-tests.yml?branch=main&style=for-the-badge)](https://github.com/fidum/padlock/actions?
-query=workflow%3Arun-tests+branch%3Amaster)
+[![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/fidum/padlock/run-tests.yml?branch=main&style=for-the-badge)](https://github.com/fidum/padlock/actions?query=workflow%3Arun-tests+branch%3Amain)
 [![Twitter Follow](https://img.shields.io/badge/follow-%40danmasonmp-1DA1F2?logo=twitter&style=for-the-badge)](https://twitter.com/danmasonmp)
 
 ## Installation
