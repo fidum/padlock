@@ -1,8 +1,5 @@
 <?php
 
-use Illuminate\Foundation\Console\EnvironmentDecryptCommand;
-use Illuminate\Foundation\Console\EnvironmentEncryptCommand;
-
 return [
 
     /*
