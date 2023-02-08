@@ -9,7 +9,7 @@
 You can install the package via composer:
 
 ```bash
-composer require --global fidum/padlock
+composer global require fidum/padlock
 ```
 
 ## Usage
