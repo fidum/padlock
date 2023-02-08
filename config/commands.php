@@ -29,7 +29,7 @@ return [
     |
     */
 
-    'paths' => [],
+    'paths' => [app_path('Commands')],
 
     /*
     |--------------------------------------------------------------------------
@@ -42,10 +42,7 @@ return [
     |
     */
 
-    'add' => [
-        EnvironmentEncryptCommand::class,
-        EnvironmentDecryptCommand::class,
-    ],
+    'add' => [],
 
     /*
     |--------------------------------------------------------------------------
