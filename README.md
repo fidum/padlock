@@ -16,7 +16,7 @@ composer global require fidum/padlock
 
 Run the below commands to encrypt and decrypt environment files in the current directory. 
 
-**You must run the `padlock` command in the current directory as we are reusing the laravel commands here to ensure that it encrypts the 
+**You must run the `padlock` command in the same directory as the environment file your are encrypting/decrypting. We are reusing the laravel commands here to ensure that it encrypts the 
 environment files correctly for laravel usage.** 
 
 [Please see the Laravel documentation for environment encryption.](https://laravel.com/docs/9.x/configuration#encrypting-environment-files) 
