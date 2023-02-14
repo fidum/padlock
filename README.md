@@ -21,10 +21,10 @@ $ padlock
   self-update Allows to self-update a build application
 
   env:decrypt Decrypt an environment file
-      --key[=KEY]        The encryption key
-      --cipher[=CIPHER]  The encryption cipher
-      --env[=ENV]        The environment the command should run under
-      --force            Overwrite the existing encrypted environment file
+      --key[=KEY]            The encryption key
+      --cipher[=CIPHER]      The encryption cipher
+      --env[=ENV]            The environment the command should run under
+      --force                Overwrite the existing encrypted environment file
 
   env:encrypt Encrypt an environment file
       --key[=KEY]            The encryption key
