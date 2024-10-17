@@ -2,6 +2,15 @@
 
 All notable changes to `padlock` will be documented in this file.
 
+## 2.0.0 - 2024-10-17
+
+### What's Changed
+
+* Update to 10.x by @dmason30 in https://github.com/fidum/padlock/pull/17
+* Drop support for 9.x
+
+**Full Changelog**: https://github.com/fidum/padlock/compare/1.0.2...2.0.0
+
 ## 1.0.2 - 2023-02-08
 
 **Full Changelog**: https://github.com/fidum/padlock/compare/1.0.1...1.0.2
