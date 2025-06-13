@@ -2,6 +2,15 @@
 
 All notable changes to `padlock` will be documented in this file.
 
+## 4.0.0 - 2025-06-13
+
+### What's Changed
+
+* Update to Laravel/Laravel Zero 12.x by @dmason30 in https://github.com/fidum/padlock/pull/22
+* Drop support for Laravel 11.x
+
+**Full Changelog**: https://github.com/fidum/padlock/compare/3.0.0...4.0.0
+
 ## 3.0.0 - 2024-10-17
 
 ### What's Changed
