@@ -37,16 +37,16 @@ $ padlock
       --key[=KEY]            The encryption key
       --cipher[=CIPHER]      The encryption cipher
       --env[=ENV]            The environment the command should run under
-      --force                Overwrite the existing encrypted environment file
+      --force                Overwrite the existing environment file
+      --path[=PATH]          Path to write the decrypted file
+      --filename[=FILENAME]  Filename of the decrypted file
 
   env:encrypt Encrypt an environment file
       --key[=KEY]            The encryption key
       --cipher[=CIPHER]      The encryption cipher
       --env[=ENV]            The environment the command should run under
-      --force                Overwrite the existing environment file
-      --path[=PATH]          Path to write the decrypted file
-      --filename[=FILENAME]  Filename of the decrypted file
-
+      --prune                Delete the original environment file
+      --force                Overwrite the existing encrypted environment file
 ```
 
 Run the below commands to encrypt and decrypt environment files in the current directory.
