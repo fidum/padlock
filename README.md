@@ -12,6 +12,22 @@ You can install the package via composer:
 composer global require fidum/padlock
 ```
 
+### Using Composer Package Executor (cpx)
+
+```sh
+# Install cpx
+composer global require cpx/cpx
+
+# Change directory
+cd src/
+
+# Decrypt
+cpx fidum/padlock env:decrypt --env=$ENVIRONMENT --force --key=$ADD_ENCRYPTION_KEY_HERE
+
+# Encrypt
+cpx fidum/padlock env:encrypt --env=$ENVIRONMENT --force --key=$ADD_ENCRYPTION_KEY_HERE
+```
+
 ## Usage
 ```console
 $ padlock
