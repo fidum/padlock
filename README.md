@@ -18,9 +18,6 @@ composer global require fidum/padlock
 # Install cpx
 composer global require cpx/cpx
 
-# Change directory
-cd src/
-
 # Decrypt
 cpx fidum/padlock env:decrypt --env=$ENVIRONMENT --force --key=$ADD_ENCRYPTION_KEY_HERE
 
