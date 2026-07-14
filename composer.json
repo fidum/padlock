@@ -16,17 +16,19 @@
         }
     ],
     "require": {
-        "php": "^8.2",
-        "illuminate/encryption": "^12.0",
+        "php": "^8.3",
+        "illuminate/encryption": "^13.0",
         "laravel-zero/phar-updater": "^1.4",
-        "nunomaduro/termwind": "^2.3"
+        "nunomaduro/termwind": "^2.4"
     },
     "require-dev": {
-        "laravel-zero/foundation": "^12.0",
-        "laravel-zero/framework": "^12.0",
-        "laravel/pint": "^1.22",
+        "illuminate/http": "^13.0",
+        "illuminate/validation": "^13.0",
+        "laravel-zero/foundation": "dev-feature/13.x-upgrade as 13.0.0",
+        "laravel-zero/framework": "dev-feature/13.x-upgrade as 13.0.0",
+        "laravel/pint": "^1.25",
         "mockery/mockery": "^1.6",
-        "pestphp/pest": "^3.8"
+        "pestphp/pest": "^4.0"
     },
     "autoload": {
         "psr-4": {
