@@ -51,7 +51,7 @@ $ padlock
 
 Run the below commands to encrypt and decrypt environment files in the current directory.
 
-[Please see the Laravel documentation for environment encryption.](https://laravel.com/docs/9.x/configuration#encrypting-environment-files) 
+[Please see the Laravel documentation for environment encryption.](https://laravel.com/docs/13.x/configuration#encrypting-environment-files) 
 
 ```console
 $ padlock env:encrypt --env=testing
